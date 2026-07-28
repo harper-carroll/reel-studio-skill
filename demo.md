@@ -80,6 +80,10 @@ npm run render    # -> out/reel.mp4
 
 ## The result
 
+![Six frames of generated B-roll — chalkboard, nebula, hands sketching, lit window, city at dawn, constellation](demo/broll-grid.png)
+
+<sub>*Six stills from the generated B-roll set — varied subjects, one unified mood.*</sub>
+
 A finished vertical reel:
 
 - **Full-frame cinematic B-roll** carrying the reflective and awe beats.
