@@ -22,9 +22,28 @@ The pipeline (and this skill's spine):
 
 Assets you'll use:
 - `assets/remotion-template/` — the Remotion project. Copy into the user's repo (e.g. `reel/`).
+- `assets/podcast-components/` — drop-in components for podcast-edit mode (see below).
 - `references/higgsfield.md` — Higgsfield MCP models, generation, and **gotchas** (read before generating).
 - `references/remotion-template.md` — template layout, customization points, commands.
 - `references/captions.md` — caption alignment + styles.
+- `references/podcast-edit.md` — **podcast edit mode** (two-speaker raw footage).
+- `references/titles-and-graphics.md` — dynamic titles + code-built explanatory graphics
+  (includes the SAFE-ZONE + COLLISION checklist — run it on every overlay).
+- `references/broll-grammar.md` — when to cut to b-roll vs speaker vs cards, sourcing
+  order (real footage > real screen recordings > generated), Playwright recording recipe.
+- `references/ep02-style-analysis.md` — the full ep02 frame-by-frame style breakdown.
+- `references/ugc-demo-ad-style.md` — the **"UGC demo-ad" style** (from the Tina/OpenArt
+  reference): 50/50 split with seam captions, 16:9 media band + speaker PIP card,
+  screen-recording proof beats, tweet-collage hook, no grain/grade.
+
+## Two modes — pick before onboarding
+
+1. **B-roll reel** (the phases below): one speaker, generate AI B-roll over the audio.
+2. **Podcast edit** (`references/podcast-edit.md`): RAW one/two-speaker footage → cut
+   retakes, per-speaker punch-in zooms, dynamic titles with a backdrop scrim, Helvetica
+   cream captions, and code-built explanatory graphics with word-timed camera zooms
+   (`references/titles-and-graphics.md`). No Higgsfield needed. The default style
+   for technical talking-head episodes is this mode.
 
 Tools required: the **Higgsfield MCP** (video/image generation, plan-billed), `ffmpeg`,
 Node/npm (Remotion), and Python with `faster-whisper` (caption alignment).

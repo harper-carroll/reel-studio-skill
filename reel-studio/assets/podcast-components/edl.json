@@ -1,0 +1,169 @@
+{
+ "fps": 30,
+ "comment": "EDL v6 - review pass. Micro-splices cut measured silences/noises (RMS-verified onsets). rate=1.1 on the guest's block from a chosen line onward. hold_graphic J-cuts (live footage under the held card) the FULLY OPEN SOURCE card over the next line's audio. Contiguity flags (audio fades, graphic re-entry) are derived from in/out equality; micro-splices are butt-joined with 2-frame ramps.",
+ "segments": [
+  {
+   "id": 1,
+   "in": 19.21,
+   "out": 22.77,
+   "framing": "title_split",
+   "speaker": "primary",
+   "title": "lockup"
+  },
+  {
+   "id": 2,
+   "in": 23.91,
+   "out": 25.61,
+   "framing": "title_split",
+   "speaker": "primary",
+   "title": "lockup"
+  },
+  {
+   "id": 3,
+   "in": 39.52,
+   "out": 47.01,
+   "framing": "split",
+   "speaker": "primary",
+   "graphic": "released"
+  },
+  {
+   "id": 4,
+   "in": 52.68,
+   "out": 55.9,
+   "framing": "split",
+   "speaker": "primary",
+   "graphic": "fullyopen"
+  },
+  {
+   "id": 5,
+   "in": 64.14,
+   "out": 67.72,
+   "framing": "split",
+   "speaker": "primary",
+   "graphic": "fullyopen2"
+  },
+  {
+   "id": 6,
+   "in": 80.52,
+   "out": 81.22,
+   "framing": "hold_graphic",
+   "speaker": "primary"
+  },
+  {
+   "id": 7,
+   "in": 81.22,
+   "out": 84.72,
+   "framing": "primary",
+   "speaker": "primary"
+  },
+  {
+   "id": 8,
+   "in": 84.72,
+   "out": 87.9,
+   "framing": "shot",
+   "speaker": "primary",
+   "file": "broll/shot_modeling.png"
+  },
+  {
+   "id": 9,
+   "in": 87.9,
+   "out": 89.74,
+   "framing": "primary",
+   "speaker": "primary"
+  },
+  {
+   "id": 10,
+   "in": 107.51,
+   "out": 112.12,
+   "framing": "split",
+   "speaker": "primary",
+   "graphic": "arch"
+  },
+  {
+   "id": 11,
+   "in": 121.16,
+   "out": 125.25,
+   "framing": "guest_title",
+   "speaker": "guest",
+   "title": "licenses"
+  },
+  {
+   "id": 12,
+   "in": 125.38,
+   "out": 126.5,
+   "framing": "guest_title",
+   "speaker": "guest",
+   "title": "licenses"
+  },
+  {
+   "id": 13,
+   "in": 126.6,
+   "out": 127.72,
+   "framing": "guest_title",
+   "speaker": "guest",
+   "title": "licenses"
+  },
+  {
+   "id": 14,
+   "in": 149.34,
+   "out": 154.9,
+   "framing": "split",
+   "speaker": "guest",
+   "graphic": "license"
+  },
+  {
+   "id": 15,
+   "in": 157.38,
+   "out": 166.55,
+   "framing": "split",
+   "speaker": "guest",
+   "graphic": "benefits",
+   "rate": 1.1
+  },
+  {
+   "id": 16,
+   "in": 166.55,
+   "out": 171.34,
+   "framing": "screenrec",
+   "speaker": "guest",
+   "file": "broll/rec_dataset.mp4",
+   "rate": 1.1
+  },
+  {
+   "id": 17,
+   "in": 187.95,
+   "out": 191.02,
+   "framing": "split",
+   "speaker": "guest",
+   "graphic": "terminal",
+   "rate": 1.1
+  },
+  {
+   "id": 18,
+   "in": 191.34,
+   "out": 193.55,
+   "framing": "split",
+   "speaker": "guest",
+   "graphic": "terminal",
+   "rate": 1.1
+  },
+  {
+   "id": 19,
+   "in": 193.55,
+   "out": 195.58,
+   "framing": "screenrec",
+   "speaker": "guest",
+   "file": "broll/rec_hfpage.mp4",
+   "rate": 1.1
+  },
+  {
+   "id": 20,
+   "in": 195.58,
+   "out": 197.6,
+   "framing": "two",
+   "speaker": "guest",
+   "title": "ep3",
+   "rate": 1.1
+  }
+ ]
+}
